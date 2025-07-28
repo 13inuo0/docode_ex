@@ -11,3 +11,64 @@ a{
     color: black;
     text-decoration: none;
 }
+/* 공통영역 */
+.inner{
+    position: relative;
+    width: 1180px;
+    margin: auto;
+    background-color: blueviolet;
+}
+/* 전체 */
+.wrap{
+}
+/* 상단 */
+.header{
+    width: 100%;
+    background-color: bisque;
+}
+header .inner {
+    background-color: aqua;
+    height: 120px;
+}
+/* 상단 위 */
+.header-top{
+    height: 60px;
+    background-color: coral;
+}
+.util{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+    gap: 15px;
+}
+.util>li>a{
+    font: 13px/1 "arial";
+}
+/* 상단 아래 */
+.header_bt{
+    height: 60px;
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#gnb{
+    display: flex;
+    width: 800px;
+    background-color: aqua;
+}
+#gnb>li{
+    width: calc(100% / 5);
+    text-align: center;
+}
+#gnb>li>a{
+    line-height: 60px;
+    display: block;
+}
+#gnb>li>a:hover{
+    background-color: #333;
+    color: aliceblue;
+}
+/* 비주얼 */
+/* 뉴스 */
+/* 하단 */
