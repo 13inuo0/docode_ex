@@ -121,9 +121,11 @@ section {
   padding: 200px 0;
   justify-content: center;
 }
-section h2{
-    text-align: center;
-    margin-bottom: 50px;
+section h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font: 24px/1 "arial";
+  font-weight: bold;
 }
 .section-wrap ul {
   display: flex;
@@ -140,13 +142,44 @@ section h2{
 .pic img {
   width: 100%;
 }
-.pic-title{
-    font-size: 18px;
-    font-weight: bold;
-    padding: 12px 0;
+.pic-title {
+  font-size: 18px/1 "arial";
+  font-weight: bold;
+  padding: 12px 0;
 }
-.section-wrap p{
-    color: #888;
-    font-size: 12px;
+.section-wrap p {
+  color: #888;
+  font-size: 12px;
 }
 /* 하단 */
+footer {
+  padding: 100px 0;
+  background-color: #333;
+}
+.upper {
+  display: flex;
+  gap: 20px;
+  font: 24px/1 "arial";
+  font-weight: bold;
+  align-items: center;
+  border-bottom: 1px solid #888;
+  padding-bottom: 20px;
+}
+.upper a {
+  color: #888;
+}
+.upper ul {
+  display: flex;
+  gap: 15px;
+  font: 18px/1 "arial";
+  font-weight: bold;
+}
+.lower address {
+  font: 12px/2.3 "arial";
+  color: #888;
+  margin-top: 20px;
+}
+.lower p {
+  font: 12px/2.3 "arial";
+  color: #888;
+}
